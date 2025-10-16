@@ -12,7 +12,7 @@ const Services = () => {
                 I offer full-stack web development using the MERN stack, creating responsive, modern, and efficient web applications from front to back. I also work on AI and machine learning projects, integrating intelligent features into web solutions to make them smarter and more dynamic.
             </p>
 
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 my-10'>
+            <div className='grid grid-cols-1 sm:grid-cols-auto lg:grid-cols-3 xl:grid-cols-auto gap-6 my-10'>
                 {serviceData.map(({ icon, title, description, link }, index) => (
                     <div key={index} className='border border-gray-400 rounded-lg py-12 px-8 hover:shadow-black cursor-pointer hover:bg-blue-50 hover:-translate-y-1 duration-500'>
                         <Image src={icon} alt='' className='w-10' />

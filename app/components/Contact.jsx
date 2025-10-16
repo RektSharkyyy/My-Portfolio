@@ -30,13 +30,11 @@ const Contact = () => {
 
     return (
         <div id='contact' className='w-full px-[12%] py-10 scroll-mt-10 bg-no-repeat bg-center mb-2 text-lg '>
-            <h4 className='text-center mb-2 text-lg font-ovo'>My portfolio</h4>
-            <h2 className='text-center text-5xl font-ovo'>My Latest Work</h2>
+            <h4 className='text-center mb-2 text-lg font-ovo'>Contact</h4>
+            <h2 className='text-center text-5xl font-ovo'>Contact me here</h2>
 
             <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>
-                Welcome to my web development portfolio. Explore a collection of projects
-                showcasing my expertise in front-end and full-stack development using the MERN
-                stack, focused on building modern, responsive, and user-friendly web applications.
+                Get in touch to discuss new opportunities, collaborations, or any questions you may have. I’m always open to connecting and sharing ideas.
             </p>
 
             <form onSubmit={onSubmit} className='max-w-2xl mx-auto'>
